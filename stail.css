@@ -1,0 +1,470 @@
+*, html, body {
+    margin:0;
+    padding:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.FContainer {
+    width: 100%;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color:white;
+    box-shadow: 0px 0px 10px rgb(205, 203, 203);
+}
+.brand {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    padding: 15px;
+}
+.firstname {
+    color: black;
+    font-weight: 700;
+    font-size: 35px;
+}
+.firstname:hover {
+    color: rgb(128, 131, 133);
+    font-weight: 700;
+    opacity: 50%;
+}
+.lastname {
+    color: red;
+    padding-left: 4px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation li {
+    list-style-type: none;
+    padding: 15px;
+}
+.navigation li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;  
+}
+.navigation >li>img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+.navigation >li> img:hover {
+    /* width: 65px; */
+    /* height: 65px; */
+    border-radius: 65px;
+    transition: all ease-in-out;
+    opacity: 60%;
+}
+.navigation > li > a:hover {
+    color: white; 
+    transition: all .3s ease-in-out; 
+    background-color: black;
+    padding: 15px;
+    border-radius: 40px;
+    font-weight:bolder ; 
+}
+.teks {
+    margin-left: 420px;
+    font-size: 20px;
+}
+.teks2 {
+    margin-left: 390px;
+}
+.teks3 {
+    margin-left: 590px;
+}
+.teks4 {
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 380px;
+}
+.teks5 {
+    margin-top: 30px;
+    margin-left: 500px;
+    font-size: 18px;
+}
+.teks6 {
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.nav li {
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 18px;
+    margin-left: 30px;
+    border-radius: 40%;
+}
+.nav > li> a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+}
+.nav > li> a:hover {
+    opacity:70%;
+    transition: ease-in-out;
+}
+
+.poto {
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 0px 10px rgb(205, 203, 203);
+}
+.navi {
+    display: flex;
+    justify-content: left;
+}
+
+      /* gtc 2 */
+
+
+.gtc2 {
+    height: 380px;
+    margin-left:40px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgb(205, 203, 203);
+}
+.gtc2:hover {
+    height: 360px;
+    transition: ease-in-out;
+}
+.teks7 {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.pteks {
+    margin-left:40px ;
+    opacity: 70%;
+}
+.teks8 {
+    margin-left: 40px;
+    opacity: 70%;
+}
+.teks9 {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+    /* pc6 */
+
+.pc6  {
+    margin-top: 50px;
+    height: 380px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px rgb(205, 203, 203);
+}
+.pc6:hover {
+    height: 360px;
+    transition: ease-in-out;
+}
+.teks10 {
+    margin-left: 450px;
+    margin-top: -90px;
+    font-size: 20px;
+}
+.teks11 {
+    margin-left: 450px;
+    opacity: 70%;
+}
+.teks12 {
+    margin-left: 450px;
+    opacity: 70%;
+}
+.teks13 {
+    margin-left: 450px;
+    margin-top: 10px;
+}
+    /* lb20 */
+
+.lb20 {
+    height: 380px;
+    box-shadow: 0px 0px 10px rgb(205, 203, 203);
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.lb20:hover {
+    height: 360px;
+    transition: ease-in-out;
+}
+.teks14 {
+    font-size: 20px;
+    margin-left: 860px;
+    margin-top: -90px;
+}
+.teks15 {
+    margin-left: 860px;
+    opacity: 70%;
+
+}
+.teks16 {
+    margin-left: 860px;
+    opacity: 70%;
+}
+.teks17 {
+    margin-left: 860px;
+    margin-top: 10px;
+}
+
+    /* sport */
+
+.teks18 {
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.rawr {
+    display: flex;
+    justify-content: left;
+}
+.basket {
+    height: 550px;
+    margin-left: 40px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgb(195, 194, 194);
+}
+.basket:hover {
+    height: 540px;
+    transition: ease-in-out;
+}
+.football {
+    height: 550px;
+    margin-left: 25px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgb(195, 194, 194);
+}
+.football:hover {
+    height: 540px;
+    transition: ease-in-out;
+}
+.trail {
+    height: 550px;
+    margin-left: 25px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgb(195, 194, 194);
+}
+.trail:hover {
+    height: 540px;
+    transition: ease-in-out;
+}
+
+       /* bakset */
+.teks19 {
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 22px;
+}
+.teks20 {
+    margin-left:40px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+       /* football  */
+.teks21 {
+    margin-left: 470px;
+    margin-top: -55px;
+    font-size: 22px;
+}
+.teks22 {
+    margin-left: 470px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+        /* trail */
+.teks23 {
+    margin-left: 860px;
+    margin-top: -55px;
+    font-size: 22px;
+}
+.teks24 {
+    margin-left: 860px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+                        /* MEN */
+
+.lj {
+    margin-left: 40px;
+    margin-top: 30px;   
+    height: 650px;
+    box-shadow: 0px 0px 10px rgb(89, 81, 80);
+}
+.nb {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.teks41 {
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 430px;
+}
+.teks51 {
+    margin-top: 30px;
+    margin-left: 160px;
+    font-size: 18px;
+}
+.teks61{
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.navy {
+    display: flex;
+    justify-content: left;
+}
+.Trey {
+    height: 380px;
+    margin-left:40px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgb(205, 203, 203);
+}
+.Trey:hover{
+    height: 360px;
+    transition: ease-in-out;
+}
+.zoom {
+    margin-top: 50px;
+    height: 380px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px rgb(205, 203, 203);
+}
+.zoom:hover {
+    height: 360px;
+    transition: ease-in-out;
+}
+.kobe {
+    margin-top: 50px;
+    height: 380px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px rgb(205, 203, 203);
+}
+.kobe:hover {
+    height: 360px;
+    transition: ease-in-out;
+}
+    /* trey */
+
+.teks71 {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.teks81 {
+    margin-left:40px ;
+    opacity: 70%;
+}
+.teks91 {
+    margin-left:40px ;
+    opacity: 70%;
+}
+.teks101 {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+    /* zoom */
+
+.teks111 {
+    margin-left: 450px;
+    margin-top: -90px;
+    font-size: 20px;
+}
+.teks112 {
+    margin-left: 450px;
+    opacity: 70%;
+}
+.teks113 {
+    margin-left: 450px;
+    margin-top: 10px;
+}
+.teks114 {
+    font-size: 20px;
+    margin-left: 860px;
+    margin-top: -70px;
+}
+.teks115 {
+    margin-left: 860px;
+    opacity: 70%;
+}
+.teks116 {
+    margin-left: 860px;
+    margin-top: 10px;
+}
+.teks117 {
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.lebron {
+    height: 600px;
+    margin-left: 40px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgb(195, 194, 194);
+}
+.lebron:hover{
+    height: 590px;
+    transition: ease-in-out;
+}
+.duren {
+    height: 600px;
+    margin-left: 70px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgb(195, 194, 194);
+}
+.duren:hover{
+    height: 590px;
+    transition: ease-in-out;
+}
+.jamur {
+    height: 600px;
+    margin-left: 75px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgb(195, 194, 194); 
+}
+.jamur:hover {
+    height: 590px;
+    transition: ease-in-out;
+}
+.james {
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 22px;
+}
+.kev {
+    margin-left: 447px;
+    margin-top: -25px;
+    font-size: 22px;
+}
+.ja {
+    margin-left: 883px;
+    margin-top: -25px;
+    font-size: 22px;
+}
+footer {
+    height: 90px;
+    line-height: 90px;
+    margin-top: 110px;
+    color: white;
+    background-color:#000000;
+    text-align: center;
+    font-weight: bold;
+    opacity: 70%; 
+}
